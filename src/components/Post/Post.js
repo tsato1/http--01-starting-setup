@@ -1,5 +1,7 @@
 import React from 'react';
 
+// import {withRouter} from 'react-router-dom'
+
 import './Post.css';
 
 const post = (props) => (
@@ -11,4 +13,7 @@ const post = (props) => (
     </article>
 );
 
-export default post;
+// export default pwithRouterost(post); // this will let you access routing-related props 
+// which might be needed in pushing the history of prop. This requires to make this a component (return JSX)
+// lecture : 222
+export default post
